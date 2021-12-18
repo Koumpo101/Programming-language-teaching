@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/classInfo/classInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00D0D4",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#00D0D4",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "教程库",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabar/jiaocheng.png",
+        "selectedIconPath": "images/tabar/jiaocheng_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "images/tabar/my.png",
+        "selectedIconPath": "images/tabar/my_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
