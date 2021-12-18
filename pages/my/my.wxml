@@ -1,0 +1,27 @@
+<!-- pages/my/my.wxml -->
+<view class="login_btn" wx:if="{{!loginShow}}">
+  <button type="primary" style="background-color:  #00D0D4;" bindtap="getuserinfo">一键登录</button>
+</view>
+<view wx:if="{{!userShow}}">
+  <view class="user_info">
+    <view class="info_left">
+      <view class="left_img">
+        <image src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class="left_nickname">{{userInfo.nickName}}</view>
+    </view>
+    <view class="info_right">
+      <van-icon name="setting-o" />
+    </view>
+  </view>
+  <view class="tab">
+    <van-tabs color="#00D0D4">
+      <van-tab title="教程收藏">
+        <shoucang />
+      </van-tab>
+      <van-tab title="最近阅读">
+        <zuijin />
+      </van-tab>
+    </van-tabs>
+  </view>
+</view>

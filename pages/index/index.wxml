@@ -1,0 +1,14 @@
+<van-sticky>
+  <van-search shape="round" background="#00D0D4" placeholder="请输入搜索关键词" />
+</van-sticky>
+<view class="main">
+  <view class="class_item" wx:for="{{classData}}" wx:for-item="item" bindtap="toClassInfo" data-children="{{item.children}}">
+    <view class="item_left">
+      <image src="{{item.imgUrl}}"></image>
+    </view>
+    <view class="item_right">
+      <view class="right_title">{{item.name}}</view>
+      <view class="right_info">{{item.desc}}</view>
+    </view>
+  </view>
+</view>

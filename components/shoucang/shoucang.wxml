@@ -1,0 +1,12 @@
+<!-- components/shoucang/shoucang.wxml -->
+<view class="main">
+  <view class="class_item" wx:for="{{classData}}" wx:for-item="item" bindtap="toClassInfo" data-children="{{item.children}}">
+    <view class="item_left">
+      <image src="{{item.imgUrl}}"></image>
+    </view>
+    <view class="item_right">
+      <view class="right_title">{{item.name}}</view>
+      <view class="right_info">{{item.desc}}</view>
+    </view>
+  </view>
+</view>

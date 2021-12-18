@@ -1,0 +1,40 @@
+/* pages/classInfo/classInfo.wxss */
+Page {
+  background-color: #eee;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  padding-bottom: 60rpx;
+}
+
+.item {
+  width: 95%;
+  height: 90rpx;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15rpx 30rpx;
+  background-color: white;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+
+.box2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 view {
+  margin-top: 50%;
+}

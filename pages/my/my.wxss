@@ -1,0 +1,50 @@
+/* pages/my/my.wxss */
+Page {
+  background-color: #eee;
+}
+
+.login_btn {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.user_info {
+  width: 100%;
+  height: 180rpx;
+  background-color: white;
+  padding: 30rpx 50rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info_left {
+  width: 50%;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+}
+
+.left_img {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.left_img image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.left_nickname {
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+
+.tab {
+  margin-top: 20rpx;
+}

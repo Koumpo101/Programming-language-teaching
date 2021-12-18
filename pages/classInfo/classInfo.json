@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index",
+    "van-transition": "@vant/weapp/transition/index"
+  },
+  "backgroundColor": "#eee",
+  "navigationBarTitleText": "教程信息"
+}
